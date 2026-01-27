@@ -1,0 +1,39 @@
+{
+  "name": "1.0-lti-node-library",
+  "version": "1.0.0",
+  "description": "TypeScript library for LTI 1.0/1.1 integration with LMS platforms (including A-Plus), including Basic Outcomes grade submission. Focused on LTI 1.0/1.1 support for platforms like A-Plus that don't support LTI 1.3.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "watch": "tsc --watch",
+    "clean": "rm -rf lib"
+  },
+  "keywords": [
+    "lti",
+    "lti1.0",
+    "lti1.1",
+    "a-plus",
+    "plussa",
+    "lms",
+    "basic-outcomes",
+    "grade-submission"
+  ],
+  "author": "Jaakko Rajala <jaakko.rajala@tuni.fi>",
+  "license": "MIT",
+  "dependencies": {
+    "oauth-1.0a": "^2.2.6",
+    "axios": "^1.7.7",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/express": "^4.17.21",
+    "@types/xml2js": "^0.4.14"
+  }
+}
