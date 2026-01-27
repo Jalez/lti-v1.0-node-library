@@ -1,0 +1,21 @@
+# Node
+node_modules/
+
+# Env
+.env
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+
+# Coverage
+coverage/
+
+# Build artifacts (kept out by default; we will commit `lib/` by choice)
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
