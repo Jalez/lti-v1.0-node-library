@@ -1,0 +1,1 @@
+{"version":3,"file":"basicOutcomes.d.ts","sourceRoot":"","sources":["../../src/outcomes/basicOutcomes.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,cAAc,EAAE,qBAAqB,EAAE,sBAAsB,EAAE,MAAM,UAAU,CAAC;AAIzF;;;;;;;;;GASG;AACH,wBAAsB,WAAW,CAC/B,cAAc,EAAE,cAAc,EAC9B,KAAK,EAAE,MAAM,EACb,QAAQ,GAAE,MAAY,EACtB,OAAO,CAAC,EAAE,sBAAsB,GAC/B,OAAO,CAAC,qBAAqB,CAAC,CAkEhC"}
