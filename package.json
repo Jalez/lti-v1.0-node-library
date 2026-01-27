@@ -1,7 +1,7 @@
 {
   "name": "lti-v1.0-node-library",
   "version": "1.0.0",
-  "description": "TypeScript library for LTI 1.0/1.1 integration with LMS platforms (including A-Plus), including Basic Outcomes grade submission. Focused on LTI 1.0/1.1 support for platforms like A-Plus that don't support LTI 1.3.",
+  "description": "TypeScript library for LTI 1.0/1.1 integration with LMS platforms (including older versions of A-Plus), including Basic Outcomes grade submission. Focused on LTI 1.0/1.1 support for platforms like older versions of A-Plus that don't support LTI 1.3.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
